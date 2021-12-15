@@ -1,0 +1,88 @@
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+
+}
+
+body{
+  font-family: Helvetica
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.back{
+  margin: 2px 3px;
+  padding: 1em;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.back:hover{
+  background-color: rgb(0, 75, 187);
+  text-decoration: none;
+}
+
+.td2, .td3, .td4{
+  text-align: center;
+}
+
+/* index.html CSS Code */
+
+table, th, td{
+  border: 1px solid;
+  font-size: 20px;
+}
+
+.th1, .td1{
+  padding: 8px 3em;
+}
+
+/* page1.html CSS Code */
+
+#favmovie_table{
+  margin-top: 6em;
+  width: 80%;
+}
+
+#favmovie_table, .th2, .td2{
+  border: 2px solid;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+.th2, .td2{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.th2{
+  font-size: 25px
+}
+
+
+
+/* page2.html */
+
+#places_table{
+  margin-top: 6em;
+  width: 80%;
+}
+
+.th3, .td3{
+  padding: 10px;
+}
+
+/* page3.html */
+
+.td4{
+  padding: 0 1em;
+}
