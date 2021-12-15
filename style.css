@@ -35,6 +35,7 @@ a:hover{
   text-align: center;
 }
 
+
 /* index.html CSS Code */
 
 table, th, td{
@@ -83,6 +84,18 @@ table, th, td{
 
 /* page3.html */
 
+#recipe_table{
+  margin-top: 6em;
+  width: 80%;
+}
+
 .td4{
   padding: 0 1em;
+}
+
+#td_img, img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
